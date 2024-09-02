@@ -1,0 +1,176 @@
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+
+
+#TOP PART
+- My PVE: #group
+    - Proxmox Phobos:
+        icon: proxmox.png # 
+        href: https://192.168.1.150:8006
+        description: Proxmox Phobos
+        slug: https://192.168.1.150:8006
+        siteMonitor: https://192.168.1.150:8006
+
+    - Proxmox backup:
+        icon: proxmox.png # 
+        href: https://192.168.1.200:8006
+        description: Proxmox backup
+        slug: https://192.168.1.200:8006
+        siteMonitor: https://192.168.1.200:8006
+
+- Services: #group 
+    
+#LEFT PART
+    - PiHole:
+        icon: pi-hole.svg # 
+        href: http://192.168.1.152/admin
+        description: Pi-Hole
+        siteMonitor: http://192.168.1.152
+        slug: http://192.168.1.152
+        widget:
+          type: pihole
+          url: http://192.168.1.152
+          key: 
+  
+
+    - Tautulli:
+        icon: tautulli.svg
+        href: http://192.168.1.153:8181/
+        description: Tautulli
+        siteMonitor: http://192.168.1.153:8181/
+      
+
+    - Uptime-Kuma:
+        icon: uptime-kuma.svg
+        href: http://192.168.1.155:3001
+        description: Uptime Kuma
+        slug: http://192.168.1.155:3001/dashboard
+        siteMonitor: http://192.168.1.155:3001
+        widget:
+          type: uptimekuma
+          url: http://192.168.1.155:3001
+          slug: http://192.168.1.155:3001/status/phobos
+        
+
+    - Grafana:
+        icon: grafana.svg
+        href: http://192.168.1.156:3000
+        description: grafana
+        slug: http://192.168.1.156:3000
+        siteMonitor: http://192.168.1.156:3000
+
+
+    - Speedtest:
+        icon: speedtest.svg
+        href: http://192.168.1.160:5216
+        description: SpeedTest every 30min
+        slug: http://192.168.1.160:5216
+        siteMonitor: http://192.168.1.160:5216
+    
+
+    - watch your lan:
+        icon: router.svg
+        href: http://192.168.1.157:8840
+        description: watch your lan monitoring
+        slug: http://192.168.1.157:8840
+        siteMonitor: http://192.168.1.157:8840
+    
+    - OpenMediaVault:
+        icon: openmediavault.svg
+        href: http://192.168.1.180/#/dashboard
+        description: OpenMediaVault
+        slug: http://192.168.1.180/#/dashboard
+        siteMonitor: http://192.168.1.180/#/dashboard
+     
+
+    - NAS Files Manager:
+        icon: files.svg
+        href: http://192.168.1.180:3670/files/
+        description: Files Manager
+        slug: http://192.168.1.180:3670/files/
+        siteMonitor: http://192.168.1.180:3670/files/
+        
+
+#RIGHT PART
+- Torrents: #group 
+    - qBittorrent:
+        icon: qbittorrent.svg # 
+        href: http://192.168.1.171:8080
+        description: qBittorrent
+        siteMonitor: http://192.168.1.171:8080
+        widget:
+          type: qbittorrent
+          url: http://192.168.1.171:8080
+          username: 
+          password: 
+
+    - Radarr:
+        icon: radarr.svg # 
+        href: http://192.168.1.171:7878
+        description: Radarr
+        siteMonitor: http://192.168.1.171:7878
+        widget:
+          type: radarr
+          url: http://192.168.1.171:7878
+          key: 
+          enableQueue: false # optional, defaults to false
+    
+    - Overseerr:
+        icon: overseerr.svg # 
+        href: http://192.168.1.158:5055
+        description: Radarr
+        siteMonitor: http://192.168.1.158:5055
+        widget:
+          type: overseerr
+          url: http://192.168.1.158:5055
+          key: 
+    
+    - Sonarr:
+        icon: sonarr.svg 
+        href: http://192.168.1.171:8989
+        description: Sonarr
+        siteMonitor: http://192.168.1.171:8989
+        widget:
+          type: sonarr
+          url: http://192.168.1.171:8989
+          key: 
+          enableQueue: false # optional, defaults to false
+    
+    
+    - prowlarr:
+        icon: prowlarr.svg 
+        href: http://192.168.1.171:9696
+        description: prowlarr
+        siteMonitor: http://192.168.1.171:9696
+        widget:
+          type: prowlarr
+          url: http://192.168.1.171:9696
+          key: 
+
+
+
+
+#TOP HALF PARTS
+- Media: #group 
+    - plex:
+        icon: plex.svg # 
+        href: https://app.plex.tv/desktop/#!/
+    - youtube:
+        icon: youtube.svg # 
+        href: https://www.youtube.com
+    - netflix:
+        icon: netflix.svg # 
+        href: https://www.netflix.com/browse
+    - disney+:
+        icon: disney-plus.svg # 
+        href: https://www.disneyplus.com/fr-fr/home
+    - prime video:
+        icon: prime-video.svg # 
+        href: https://www.primevideo.com/
+    - twitch:
+        icon: twitch.svg # 
+        href: https://www.twitch.tv
+    
+    
+
+    

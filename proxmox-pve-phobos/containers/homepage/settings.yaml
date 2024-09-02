@@ -1,0 +1,20 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/settings
+
+title: My Homepage
+headerStyle: clean
+language: fr
+background:
+  image: https://i.imgur.com/UBATuw5.jpg
+  blur: sm # sm, "", md, xl... see https://tailwindcss.com/docs/backdrop-blur
+  brightness: 50 # 0, 50, 75... see https://tailwindcss.com/docs/backdrop-brightness
+  opacity: 65 # 0-100
+
+layout:
+  My PVE:
+    style: row
+    columns: 2
+  Media:
+    style: row
+    columns: 3
