@@ -1,17 +1,49 @@
 ---
 # For configuration options and examples, please see:
 # https://gethomepage.dev/latest/configs/bookmarks
-- Developer:
-    - Github:
-        - abbr: GH
-          href: https://github.com/
+
+
+- github:
+
+    - homelab-private:
+        - icon: github.png
+          href: https://github.com/ImEmmdie/homelab-private
+
+
+    - homelab-public:
+        - icon: github.png
+          href: https://github.com/ImEmmdie/homelab-public
+
+
+    - homelab-to-pub:
+        - icon: github.png
+          href: https://github.com/ImEmmdie/homelab-to-pub
+
+
+    - macos:
+        - icon: github.png
+          href: https://github.com/ImEmmdie/macos
+
+
 
 - Social:
+  
+    - pinterest:
+        - icon: pinterest.png
+          href: https://www.pinterest.fr/ImEmilieRG/
+          ping: https://www.pinterest.fr/ImEmilieRG/
+
+
+    - Tumblr:
+        - icon: https://www.svgrepo.com/show/66655/tumblr-logo.svg
+          href: https://www.tumblr.com
+
+
     - Reddit:
-        - abbr: RE
+        - icon: reddit.png
           href: https://reddit.com/
 
-- Entertainment:
-    - YouTube:
-        - abbr: YT
-          href: https://youtube.com/
+
+    - Twitter:
+        - icon: x.png
+          href: https://x.com/home
